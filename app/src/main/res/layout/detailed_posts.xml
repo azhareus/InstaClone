@@ -30,6 +30,14 @@
         android:textSize="18sp"
         tools:text="trying to look like a coder" />
 
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        android:textSize="14sp"
+        tools:text="Created at 2020-07-10T06:06:34.562Z" />
 
 
 </LinearLayout>
