@@ -11,6 +11,9 @@ import com.parse.ParseUser;
 
 import org.parceler.Parcels;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class DetailedPostsActivity extends AppCompatActivity {
     //the Post to Display
     Post post;
@@ -35,6 +38,10 @@ public class DetailedPostsActivity extends AppCompatActivity {
         if (post.getImage()!=null){
             Glide.with(this).load(post.getImage().getUrl()).into(ivImage);
         }
+        Date date = post.getCreatedAt();
+        SimpleDateFormat DateFor = new SimpleDateFormat("dd MMMM yyyy");
+        String stringDate = DateFor.format(date);
+        tvCreatedAt.setText(stringDate);
 
         //set the information
 
