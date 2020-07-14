@@ -45,7 +45,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-[Imgur](https://i.imgur.com/Szt69AL.gifv)
+[GitHub](https://github.com/azhareus/InstaClone/blob/master/Animated%20GIF-downsized_large.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
